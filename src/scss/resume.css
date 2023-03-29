@@ -4,7 +4,7 @@ body {
 }
 body .container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 body .container header {
   height: 2rem;
@@ -22,7 +22,9 @@ body .container header .st .circle {
   height: 25px;
   border-radius: 50%;
   background-color: #eea302;
-  cursor: pointer;
+}
+body .container header .st h3 a {
+  text-decoration: none;
 }
 body .container header .nd {
   width: 100%;
@@ -31,10 +33,20 @@ body .container header .nd {
   align-items: center;
   gap: 1rem;
 }
+body .container header .nd div a {
+  text-decoration: none;
+}
 body .container header .nd p {
   height: 100%;
   width: 1px;
   background-color: black;
+}
+body .container .resume-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 body .container footer {
   display: flex;

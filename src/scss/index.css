@@ -23,12 +23,18 @@ body .container header .st .circle {
   border-radius: 50%;
   background-color: #eea302;
 }
+body .container header .st h3 a {
+  text-decoration: none;
+}
 body .container header .nd {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 1rem;
+}
+body .container header .nd div a {
+  text-decoration: none;
 }
 body .container header .nd p {
   height: 100%;
@@ -56,27 +62,31 @@ body .container .sub-container .content .topic {
   display: flex;
   justify-content: space-between;
   gap: 2%;
-  cursor: pointer;
 }
-body .container .sub-container .content .topic div {
+body .container .sub-container .content .topic a {
+  text-decoration: none;
+}
+body .container .sub-container .content .topic a div {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
-body .container .sub-container .content .topic :first-child {
+body .container .sub-container .content .topic a .resume {
   background-color: #eea302;
 }
-body .container .sub-container .content .topic :nth-child(2) {
+body .container .sub-container .content .topic a .project {
   background-color: #ff3b25;
 }
-body .container .sub-container .content .topic :nth-child(3) {
+body .container .sub-container .content .topic a .contact {
   background-color: #80d8da;
 }
-body .container .sub-container .content .topic :hover {
+body .container .sub-container .content .topic a :hover {
   background-color: #f3f3f3;
+  border-radius: 50%;
 }
 body .container footer {
   display: flex;

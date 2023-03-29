@@ -9,6 +9,7 @@ body{
         header{
             height: 2rem;
             display: flex;
+            
             .st{
                 // height: 2rem;
                 width: 100%;
@@ -22,6 +23,11 @@ body{
                     border-radius: 50%;
                     background-color: #eea302;
                 }
+                h3{
+                    a{
+                        text-decoration: none;
+                    }
+                }
             }
             .nd{
                 width: 100%;
@@ -29,6 +35,11 @@ body{
                 justify-content: flex-end;
                 align-items: center;
                 gap: 1rem;
+                div{
+                    a{
+                        text-decoration: none;
+                    }
+                }
                 p{
                     height: 100%;
                     width: 1px;
@@ -57,27 +68,32 @@ body{
                     display: flex;
                     justify-content: space-between;
                     gap: 2%;
-                    cursor: pointer;
-                    div{
-                        width: 5rem;
-                        height: 5rem;
-                        border-radius: 50%;
-                        // border: 10px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        
-                    }:first-child{
-                        background-color: #eea302 ;
-                    }
-                    :nth-child(2){
-                        background-color: #ff3b25;
-                    }
-                    :nth-child(3){
-                        background-color: #80d8da;
-                    }
-                    :hover{
-                        background-color: #f3f3f3;
+                    a{
+                        text-decoration: none;
+                        div{
+                            width: 5rem;
+                            height: 5rem;
+                            border-radius: 50%;
+                            // border: 10px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            // text-decoration: none;
+                            cursor: pointer;
+                        }
+                        .resume{
+                            background-color: #eea302;
+                        }
+                        .project{
+                            background-color: #ff3b25;
+                        }
+                        .contact{
+                            background-color: #80d8da;
+                        }
+                        :hover{
+                            background-color: #f3f3f3;
+                            border-radius: 50%;
+                        }
                     }
                 }
             }
