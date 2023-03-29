@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+}
+body .container {
+  width: 100%;
+  height: 94vh;
+}
+body .container header {
+  height: 2rem;
+  display: flex;
+}
+body .container header .st {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+body .container header .st .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #eea302;
+}
+body .container header .nd {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+body .container header .nd p {
+  height: 100%;
+  width: 1px;
+  background-color: black;
+}
+body .container .sub-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+body .container .sub-container .img {
+  width: 300px;
+  height: 300px;
+}
+body .container .sub-container .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+body .container .sub-container .content .topic {
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  cursor: pointer;
+}
+body .container .sub-container .content .topic div {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container .sub-container .content .topic :first-child {
+  background-color: #eea302;
+}
+body .container .sub-container .content .topic :nth-child(2) {
+  background-color: #ff3b25;
+}
+body .container .sub-container .content .topic :nth-child(3) {
+  background-color: #80d8da;
+}
+body .container .sub-container .content .topic :hover {
+  background-color: #f3f3f3;
+}
+body .container footer {
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=index.css.map */
